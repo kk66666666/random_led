@@ -25,7 +25,7 @@ function 點燈 (num: number) {
         y = Math.floor(num) / 5
     } else {
         x = 4
-        y = num / 5 - 1
+        y = Math.floor(num) / 5 - 1
     }
     led.plot(x, y)
 }
